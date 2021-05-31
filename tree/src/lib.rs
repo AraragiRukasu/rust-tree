@@ -1,5 +1,3 @@
-mod printer;
-
 use std::{cell::{Ref, RefCell}, fmt::Display, rc::{Rc, Weak}};
 
 pub struct TreeNode<T> where T: Display{
